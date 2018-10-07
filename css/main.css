@@ -22,19 +22,25 @@
 /* -- Header -- */
 .header{
   padding: 15rem 0;
+  min-height: 35rem;
 }
 .header, .about-me, .skills, .projects, .contact-me{
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
 }
 .projects{
   padding-bottom: 13rem;
 }
+.about-me, .skills, .projects{
+  min-height: 30rem;
+}
+.contact-me{
+  min-height: 27rem;
+}
 /**/
 .text-size-h1{
-  font-size: 6.875rem;
+  font-size: 6rem;
 }
 /* span */
 .bg-text{
@@ -73,9 +79,28 @@
   font-size: 0.95em;
 }
 /* project */
-.project-img{
-  width:auto;
+.img-project{
+  height: 25vh;
+  width: auto;
+}
+.img-project-2{
+  width: 30vh;
   height: auto;
+}
+.box-projects{
+  height: 27vh;
+  width: 30vh;
+  cursor: pointer;
+}
+.btn-project{
+  background-color: yellow;
+}
+.btn-project:hover{
+  background-color: #f1db00;
+  color: #000;
+}
+.btn-project:link{
+  text-decoration: none;
 }
 /* contact-me */
 .icon-size{
@@ -88,8 +113,11 @@
   color: #000;
 }
 .link-to-cv{
+  background-color: #01c9c4;
+}
+.link-to-cv, .btn-project{
   padding: 1rem 4rem;
-  background-color: yellow;
+  
   border-radius: 2vh;
   color: #000;
   font-size: 1.2em;
@@ -98,18 +126,23 @@
   text-decoration: none;
 }
 .link-to-cv:hover{
-  background-color: #ffea00;
+  background-color: #009282;
   color: #000;
-}
-.outline{
-  outline: 3px solid green;
 }
 /* footer */
 .bg-gray{
   background-color: #dedde2;
 }
+/*
+.outline{
+  outline: 2px solid blue;
+  margin-right: -6vh !important;
+}
+.outline-1{
+  outline: 2px solid palevioletred;
+}*/
 @media (max-width:576px){
-  .projects{
+  .projects, .contact-me{
     margin-top: 20rem;
   }
 }
