@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Defining fonts for each kind of text */
+.text-subtitle{
+  font-family: 'Oswald', sans-serif;
+}
+.text-title{
+  font-family: 'Abril Fatface', cursive;
+}
+.text-paragraph{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.c-black{
+  color: #000;
+}
+.text-size-p{
+  font-size: 1.3rem;
+}
+/* -- Header -- */
+.header{
+  padding: 15rem 0;
+}
+.header, .about-me, .skills, .projects, .contact-me{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+}
+.projects{
+  padding-bottom: 13rem;
+}
+/**/
+.text-size-h1{
+  font-size: 6.875rem;
+}
+/* span */
+.bg-text{
+  background-color: #01c9c4;
+  font-weight: bold;
+}
+/* about me */
+.about-me-h2{
+  font-size: 3.4375rem;
+}
+.circle{
+  background-color: yellow;
+  border-radius: 50%;
+  width: 3vh;
+  height: 3vh;
+}
+.box-skills h3{
+  font-size: 1.4em;
+}
+.box-skills{
+  height: 30vh;
+  /*width: 30vh;*/
+  border: 2px solid #000;
+  box-sizing: border-box;
+  padding: 1rem;
+  box-sizing: border-box;
+  -webkit-box-shadow: -7px 8px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: -7px 8px 0px 0px rgba(0,0,0,1);
+  box-shadow: -7px 8px 0px 0px rgba(0,0,0,1);
+  cursor: pointer;
+}
+.box-skills:hover {
+  background-color: #dedde2;
+}
+.size-font-list{
+  font-size: 0.95em;
+}
+/* project */
+.project-img{
+  width:auto;
+  height: auto;
+}
+/* contact-me */
+.icon-size{
+  font-size: 2.7rem;
+}
+.icon-linkedin{
+  color: #0077b5;
+}
+.icon-github{
+  color: #000;
+}
+.link-to-cv{
+  padding: 1rem 4rem;
+  background-color: yellow;
+  border-radius: 2vh;
+  color: #000;
+  font-size: 1.2em;
+}
+.link-to-cv:link{
+  text-decoration: none;
+}
+.link-to-cv:hover{
+  background-color: #ffea00;
+  color: #000;
+}
+.outline{
+  outline: 3px solid green;
+}
+/* footer */
+.bg-gray{
+  background-color: #dedde2;
+}
+@media (max-width:576px){
+  .projects{
+    margin-top: 20rem;
+  }
+}
