@@ -61,8 +61,8 @@
   font-size: 1.4em;
 }
 .box-skills{
-  height: 30vh;
-  /*width: 30vh;*/
+  height: 30vh !important;
+  width: 30vh;
   border: 2px solid #000;
   box-sizing: border-box;
   padding: 1rem;
@@ -88,8 +88,8 @@
   height: auto;
 }
 .box-projects{
-  height: 27vh;
-  width: 30vh;
+  height: 27vh !important;
+  width: 30vh !important;
   cursor: pointer;
 }
 .btn-project{
